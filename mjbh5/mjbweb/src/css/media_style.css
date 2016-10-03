@@ -1,0 +1,482 @@
+@media screen and (min-width: 320px)  and (max-width:960px) {
+
+    .mjb-xs-hidden {
+
+        display: none;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .mjb-xs-logo {
+
+        margin-left: 10px;
+    }
+
+    .mjb-nav {
+
+        height: auto;
+    }
+
+    .mjb-info {
+        margin-top: 10px;
+    }
+
+    .mjb-info li {
+        margin-bottom: 10px;
+        margin-right: 10px;
+        float: none;
+    }
+
+    .mjb-market li {
+        margin-right: 0;
+        vertical-align: bottom;
+
+    }
+
+    .mjb-market li a {
+        margin-right: 0;
+        display: block;
+
+    }
+
+    .mjb-bottom {
+        background: #2d3e50;
+        color: #cfd9e5;
+        font-size: 12px;
+        padding: 10px 0px;
+        height: auto;
+    }
+    .carousel-inner>.item>a>img, .carousel-inner>.item>img {
+        line-height: 1;
+        height:180px;
+    }
+    .mjb-bottom-info {
+
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .ercode img {
+
+        width: 70%;
+    }
+
+    .mjb-market td a {
+        display: block;
+        margin-right: 0px;
+    }
+
+    .mjb-navbar {
+        background: #3c3b41;
+        display: none;
+        float: left;
+        width: 100%;
+        position: absolute;
+        z-index: 999;
+        top: 55px;
+
+    }
+
+    .mjb-xs-nav, .mjb-xs-box {
+
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .nav-box li {
+        float: none;
+        text-align: left;
+        display: block;
+        height: auto;
+        padding-top: 18px;
+        width: auto;
+    }
+
+    .nav-box li:hover {
+        background: none;
+    }
+
+    .nav-box li.active {
+        background: none;
+    }
+
+    .nav-item {
+
+        position: relative;
+    }
+
+    .nav-item a {
+        display: block;
+        color: #c8c8c8;
+        text-decoration: none;
+
+    }
+
+    .nav-item a span:first-child {
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+    .nav-item a span:last-child {
+
+        color: #5a564b;
+    }
+
+    .mjb-sub-nav {
+        position: absolute;
+        z-index: 9999;
+        top: 0px;
+        display: block;
+        background: none;
+        left: 29%;
+        width: 100%;
+
+
+    }
+
+    .mjb-sub-nav li {
+
+        float: left;
+        text-align: center;
+        display: block;
+        width: auto;
+        height: auto;
+        padding-top: 8px;
+        margin-right: 15px;
+
+    }
+
+    .mjb-sub-nav li:hover {
+
+        background: none;
+    }
+
+    .mjb-sub-nav li a {
+
+        color: #ffffff;
+
+    }
+
+    .mjb-news-item {
+
+        margin-bottom: 20px;
+    }
+
+    .mjb-news-item img {
+
+        width: 100%;
+    }
+
+    .mjb-news h4 {
+        margin-bottom: 10px;
+        font-weight: bold;
+        color: #999999;
+        margin-top: 10px;
+    }
+
+    .mjb-xs-fl {
+
+        float: left;
+    }
+
+    .mjb-xs-fl a {
+
+        margin-left: 0px;
+        margin-bottom: 5px;
+
+    }
+
+    .mjb-app-down {
+        background: url(../img/mobile_down.png) no-repeat;
+        width: 100%;
+        background-size: cover;
+        height: 260px;
+    }
+    .mjb-xs-subar{
+
+        display: block;
+    }
+
+    .down-btn-box {
+        position: absolute;
+        left: 10%;
+        top: 110px;
+    }
+    .down-btn-box img {
+
+        width: 100%;
+    }
+
+    .focus {
+        position: relative;
+        width: 100%;
+        background-color: #000;
+        float: left;
+        height: 150px;
+        margin-top: 2px;
+    }
+
+    .focus img {
+        width: 100%;
+        height: 150px;
+    }
+
+    .focus .shadow .title {
+        width: 100%;
+        height: 65px;
+        padding-left: 30px;
+        padding-top: 20px;
+    }
+
+    .focus .shadow .title a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 14px;
+        font-weight: bolder;
+        overflow: hidden;
+    }
+
+    .focus .btn {
+        position: absolute;
+        bottom: 34px;
+        left: 510px;
+        overflow: hidden;
+        zoom: 1;
+    }
+
+    .focus .btn a {
+        position: relative;
+        display: inline;
+        width: 13px;
+        height: 13px;
+        border-radius: 7px;
+        margin: 0 5px;
+        color: #B0B0B0;
+        font: 12px/15px "\5B8B\4F53";
+        text-decoration: none;
+        text-align: center;
+        outline: 0;
+        float: left;
+        background: #D9D9D9;
+    }
+
+    .focus .btn a:hover, .focus .btn a.current {
+        cursor: pointer;
+        background: #fc114a;
+    }
+
+    .focus .fPic {
+        position: absolute;
+        left: 0px;
+        top: 0px;
+    }
+
+    .focus .D1fBt {
+        overflow: hidden;
+        zoom: 1;
+        height: 16px;
+        z-index: 10;
+    }
+
+    .focus .shadow {
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+        left: 0px;
+        z-index: 10;
+        height: 20px;
+        line-height: 20px;
+        background: rgba(0, 0, 0, 0.6);
+        filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#80000000', endColorstr='#80000000') \9;
+        display: block;
+        text-align: left;
+    }
+
+    .focus .shadow a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 12px;
+        overflow: hidden;
+        margin-left: 10px;
+        font-family: "\5FAE\8F6F\96C5\9ED1";
+    }
+
+    .focus .fcon {
+        position: relative;
+        width: 100%;
+        float: left;
+        display: none;
+        background: #000
+    }
+
+    .focus .fcon img {
+        display: block;
+    }
+
+    .focus .fbg {
+        bottom: 5px;
+        left: 5px;
+        position: absolute;
+        height: auto;
+        text-align: center;
+        z-index: 200;
+    }
+
+    .focus .fbg div {
+        margin: 4px auto 0;
+        overflow: hidden;
+        zoom: 1;
+        height: 8px
+    }
+
+    .focus .D1fBt a {
+        position: relative;
+        display: inline;
+        width: 8px;
+        height: 8px;
+        border-radius: 7px;
+        margin: 0 2px;
+        color: #B0B0B0;
+        font: 12px/15px "\5B8B\4F53";
+        text-decoration: none;
+        text-align: center;
+        outline: 0;
+        float: left;
+        background: #555150;
+    }
+
+    .focus .D1fBt .current, .focus .D1fBt a:hover {
+        background: #ffffff;
+    }
+
+    .focus .D1fBt img {
+        display: none
+    }
+
+    .focus .D1fBt i {
+        display: none;
+        font-style: normal;
+    }
+
+    .focus .prev, .focus .next {
+        position: absolute;
+        width: 40px;
+        height: 74px;
+        background: url(../img/focus_btn.png) no-repeat;
+    }
+
+    .focus .prev {
+        top: 50%;
+        margin-top: -37px;
+        left: 0;
+        background-position: 0 -74px;
+        cursor: pointer;
+    }
+
+    .focus .next {
+        top: 50%;
+        margin-top: -37px;
+        right: 0;
+        background-position: -40px -74px;
+        cursor: pointer;
+    }
+
+    .focus .prev:hover {
+        background-position: 0 0;
+    }
+
+    .focus .next:hover {
+        background-position: -40px 0;
+    }
+
+    .sub-nav {
+        padding-top: 0px;
+        padding-bottom: 0px;
+        float: left;
+        width: 100%;
+        text-align: center;
+    }
+
+    .sub-nav li {
+        margin-bottom: 0px;
+        padding-right: 20px;
+        float: left;
+        width: 33%;
+        height: 40px;
+        line-height: 40px;
+    }
+
+    .sub-nav li a {
+        color: #c3c3c3;
+        text-decoration: none;
+        display: block;
+        border-bottom: none;
+        font-weight: bold;
+    }
+    .sub-nav1 {
+        padding-top: 0px;
+        padding-bottom: 0px;
+        float: left;
+        width: 100%;
+        text-align: center;
+    }
+
+    .sub-nav1 li {
+        margin-bottom: 0px;
+        padding-right: 20px;
+        float: left;
+        width: 50%;
+        height: 40px;
+        line-height: 40px;
+    }
+
+    .sub-nav1 li a {
+        color: #c3c3c3;
+        text-decoration: none;
+        display: block;
+        border-bottom: none;
+        font-weight: bold;
+    }
+    .mjb-main {
+        padding-top: 0px;
+        padding-bottom: 0px;
+        border-left: none;
+        margin-top: 10px;
+    }
+
+    .mjb-xs-cbox {
+
+        margin-top: 0;
+        margin-bottom: 0;
+
+    }
+    .mjb-xs-banner img{
+
+        height:100%;
+        width: 100%;
+
+    }
+    .down-app {
+        background: url('../img/down_app_bg.png') no-repeat left center;
+        width: 100%;
+        height: 125px;
+        background-size: cover;
+
+    }
+    .mjb-xs-down-box {
+
+        position: absolute;
+        left: 50%;
+        top: 60px;
+    }
+
+    .mjb-xs-down-box img {
+        width: 80px;
+    }
+    .news-box {
+
+        background: #f2f3f7;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        padding-right: 10px;
+    }
+}

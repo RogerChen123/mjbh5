@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="美聚宝移动互联网_商业营销社群APP_美聚宝应用_全行业分类信息购物平台"/>
+    <meta name="description" content="美聚宝是地方商业社群平台，是商业经营自己的营销平台，一次性解决商业诸多痛点难点，引导商业逐步转型升级。"/>
+    <meta name="viewport" content="width=device-width;
+    initial-scale=1.0;minimum-scale=1.0; maximum-scale=1.0; user-scalable=no;"/>
+    <link rel="shortcut icon" type="/image/x-icon" href="favicon.ico"/>
+    <title>美聚宝 移动互联网+商业营销社群APP---随时、随地、按区、按需导购平台</title>
+    <!--[ifltIE9]>
+    <script type="text/javascript" src="js/lib/html5shiv.js"></script>
+    <![endif]-->
+    <!--[ifltIE9]>
+    <script type="text/javascript" src="js/lib/respond.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" href="css/reset.css"/>
+    <link rel="stylesheet" href="css/lib/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/mjb_style.css"/>
+    <link rel="stylesheet" href="css/media_style.css"/>
+</head>
+<body>
+<div class="container-fluid">
+    <!--头部布局-->
+    <header class="row mjb-xs-hidden">
+        <!-- 顶部-->
+        <div class="col-md-12 mjb-top-box">
+            <div class="fl ml10">
+                <p>您好，欢迎访问美聚宝！</p>
+            </div>
+            <div class="fr">
+                <div class=" top-fl-item fl">
+                    <span><a href="#">在线留言</a>&nbsp;|&nbsp;</span>
+                    <span><a target="_blank" href="http://www.51mjb.com:8080/mjbmall/">店铺登录</a>&nbsp;|&nbsp;</span>
+                    <span><a href="javascript:void(0);" href="javascript:void(0);"
+                             onclick="AddFavorite('美居宝官方网站',location.href)">收藏本站</a>&nbsp;|&nbsp;</span>
+                    <span><a href="mjb_contact_us.html">联系我们</a></span>
+                </div>
+
+                <div class="top-fr-item fr" style="position: relative;">
+                    <a id="weibo" class="icon-btn fl" href="#"><img src="img/404_08.png" width="27" alt="新浪微博"/></a>
+
+                    <div id="weibo_box" class="weibo-box hide">
+                        <img src="img/mjb_sina.png" alt="" width="100%"/></div>
+                    <a id="weixin" class="icon-btn fl" href="#"><img src="img/404_10.png" width="25" alt="微信"/></a>
+
+                    <div id="weixin_box" class="weixin-box hide">
+                        <img src="img/mjb_weixin.png" alt="" width="100%"/></div>
+                    <a class="mjb-top-btn fl ml10" target="_blank" href="http://www.51mjb.com:8080/mjbmall/">登录</a>
+                    <a class="mjb-top-btn fl" target="_blank" href="http://www.51mjb.com:8080/mjbmall/">合作</a>
+                </div>
+            </div>
+        </div>
+        <!-- logo&tel-->
+        <div class="col-md-12 mjb-top">
+            <div class="col-md-6">
+                <a class="fl" href="index.html">
+                    <img src="img/logobg.jpg" height="78" alt="logo" class="mjb-logo-lg"/>
+                </a>
+            </div>
+            <div class="col-md-6">
+                <a class="fr" href="#">
+                    <img src="img/tel.jpg" height="78" alt="tel" class="mjb-tel"/>
+                </a>
+            </div>
+        </div>
+    </header>
+    <!-- 导航布局-->
+    <nav class="row mjb-nav" role="navigation">
+        <div class="container mjb-xs-nav">
+            <div class="col-md-12">
+                <div class="row">
+                    <div class="fl mjb-xs-logo">
+                        <a href="index.html">
+                            <img src="img/logo.png" alt="logo" height="50"/>
+                        </a>
+                    </div>
+                    <button id="navbarToggle" type="button" class="navbar-toggle">
+                        <span class="sr-only">切换导航</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <div class="fl mjb-navbar">
+
+                        <ul class="nav-box" id="example-navbar-collapse">
+                            <li class="nav-item"><a href="index.html">
+                                <span>首页</span><br/>
+                                <span class="mjb-xs-hidden">HOME</span>
+                            </a></li>
+                            <li id="enterMjb" class="nav-item "><a href="mjb_enter.html">
+                                <span>走进美聚宝</span><br/>
+                                <span class="mjb-xs-hidden">Approach MeiJuBao</span>
+                            </a>
+                                <ul id="MjbEnterBox" class="mjb-sub-nav ">
+                                    <li><a href="mjb_enter.html">介绍</a></li>
+                                    <li><a href="mjb_function.html">功能</a></li>
+                                    <li><a href="mjb_down.html">下载渠道</a></li>
+                                </ul>
+                            </li>
+                            <li id="newsMjb" class="nav-item"><a href="mjb_trends.html">
+                                <span>新闻资讯</span><br/>
+                                <span class="mjb-xs-hidden">News information</span>
+                            </a>
+                                <ul id="MjbNewsBox" class="mjb-sub-nav">
+                                    <!-- <li><a href="mjb_news.html">业界新闻</a></li>-->
+                                    <li><a href="mjb_trends.html">美聚宝动态</a></li>
+                                </ul>
+                            </li>
+                            <li id="joinMjb" class="nav-item"><a href="mjb_join.html">
+                                <span>加入美聚宝</span><br/>
+                                <span class="mjb-xs-hidden">Join MeiJuBao</span>
+                            </a>
+                                <ul id="MjbJoinBox" class="mjb-sub-nav">
+                                    <li><a href="mjb_join.html">为何加入</a></li>
+                                    <li><a href="mjb_prospect.html">发展前景</a></li>
+                                    <li><a href="mjb_vantage.html">优势</a></li>
+                                </ul>
+                            </li>
+                            <li id="cooperateMjb" class="nav-item"><a href="mjb_guide.html">
+                                <span>合作指南</span><br/>
+                                <span class="mjb-xs-hidden">Cooperation Guide</span>
+                            </a>
+                                <ul id="MjbCooperateBox" class="mjb-sub-nav">
+                                    <li><a href="mjb_guide.html">合作流程</a></li>
+                                    <li><a href="mjb_league.html">加盟条件</a></li>
+                                    <li><a href="mjb_qa.html">疑问解答</a></li>
+                                </ul>
+                            </li>
+                            <li id="aboutMjb" class="nav-item"><a href="mjb_about.html">
+                                <span>关于美聚宝</span><br/>
+                                <span class="mjb-xs-hidden">About Us</span>
+                            </a>
+                                <ul id="MjbAboutBox" class="mjb-sub-nav">
+                                    <li><a href="mjb_about.html">美聚宝介绍</a></li>
+                                    <li><a href="mjb_company_profile.html">企业简介</a></li>
+                                    <li><a href="mjb_contact_us.html">联系我们</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!--主体布局 -->
+    <section>
+        <div class="row mjb-xs-hidden mt10">
+            <img src="img/banner_002.png" alt="" width="100%"/>
+        </div>
+        <div class="row">
+            <div class="container mjb-xs-box mjb-xs-cbox  mt30 mb30">
+                <div class="col-md-3 col-xs-12 mjb-xs-box mjb-xs-subar">
+                    <ul class="sub-nav sub-nav1 mjb-xs-hidden">
+                        <!-- <li><a href="mjb_news.html">业界新闻</a></li>-->
+                        <li><a href="mjb_trends.html">美聚宝动态</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-12 col-xs-12 mjb-main" style="border:none;">
+                    <div class="row mjb-xs-hidden">
+                        <div class="col-md-12">
+                            <ol class="mjb-breadcrumb">
+                                <li><a href="index.html">首页</a>&gt;</li>
+                                <li><a href="mjb_news.html">业界新闻</a>&gt;</li>
+                                <li class="active">详情</li>
+                            </ol>
+                        </div>
+                        <div class="col-md-12">
+                            <h3 class=" fl red fbold mt10 mjb-broder-bottm">|&nbsp;业界新闻</h3>
+                        </div>
+                    </div>
+                    <div class="news-box">
+
+                        <div class="news-head tc">
+                            <h4 class="fbold red">实体商铺压力大美聚宝提供舞台让商户尝试新型销售模式</h4>
+
+                            <p><span class="mr10">2016-09-09</span><span>发布者：美聚宝</span></p>
+                        </div>
+                        <div class="news-content tl" style="padding:20px;">
+                            <h5 class="fbold">导读：当下实体店铺面临什么样的形式呢“实体店铺经营成本太高，几位过来人这样减负：线下转线上、合租进商场、混搭搞共享……”“实体店铺的经营成本增大，是所有经营者难以逃避的问题。</h5>
+
+                            <p>当下实体店铺面临什么样的形式呢“实体店铺经营成本太高，几位过来人这样减负：线下转线上、合租进商场、混搭搞共享……”“实体店铺的经营成本增大，是所有经营者难以逃避的问题。”“节能减排”成为商户们必须要走的路，并且已经有“先行者”探索减负门路，他们或转战网络，或联合租赁，还有的在尝试新的销售模式。“。。。。。。对于现在实体店铺面临的一个趋势，还有什么出路呢
+
+                                出路1：从实体店到开网店(电子商务)
+
+                                因为实体店的经营成本太高，有不少老板都把店面转让，而且是经历了从网店到实体店又回到网店的过程。 但事实是现在做网店成本也增加了，只是相比实体店还是要省得多，而且对于很多服装生意 也是越来越趋向网上消费。
+
+                                实体店转型网店的可行性分析：实体店转向网店是大势所趋，线上销售、线下体验将是未来的主要经营模式，同时可以省下大量的实体店经营费用。
+
+                                注意事项：电子商务竞争激烈，新进者会有一个养店期，多学习网店推广技巧，完善客户服务，让新客户逐渐转变成忠实客户，慢慢形成自己的客户群。同时，在电子商务平台经营的费用也日益增长，门槛在不断提高，当下在网络上占据“一席之地”是很有必要的。美聚宝APP
+
+                                出路2：进入综合体合伙租店
+
+                                临街商铺的不稳定性，也让一些创业者开始将阵地转向大型商业综合体或者商场。有些人只是打算开一家快餐店，大约投资费用并不是很多，但经过自己的考察后还是会考虑引入合伙人增加投资并且要进入商场，他们觉得这样会稳定一些，这都是一些创业者的想法。但随着城市规划改造进程的加快，大型商业综合体几乎成为消费者逛街的主要去向，规范的管理和相对稳定的租金也使其成为投资者的选择。也有创业者说，现在开个店，转让费都要几万元甚至十几万，还不如直接进入新开的商业街，至少可以省下一部分投资。有些商场在第一年还免房租，可以减轻压力
+
+                                可行性分析：商业中心门槛较高，单个创业者能力有限的话，可以考虑合作或者引入投资者的形式，可在一定程度上减轻经营压力。
+
+                                注意事项：在大型的商业中心，适合做品牌店或主题店，经营的项目要有个性，有品牌号召力。美聚宝APP
+
+                                出路3：混业经营共享资源
+
+                                与联合出资的方式不同，混业经营是另一种横向的联合，可节约成本。为了求生存，不少实体店纷纷拓展副业，尝试多元化经营，比如书店设立餐厅、咖啡馆，增加服装项目等。不少广州本土服装品牌“例外”携手台湾诚品书店，在广州最高端的商场太古汇开了一家2000平方米的店，店面以书籍、服装、咖啡、生活创意产品、画廊等混业经营为特色。在实体店日渐衰落的今天，项目混搭、联合经营也成为一种选择。
+
+                                可行性分析：已有商铺的经营者，可以进行这样的“异业联盟”，让别人的项目走进自己的店面，成本分摊，适当减轻经营压力。
+
+                                注意事项：合作的项目最好彼此互补，能够针对同一类客户的不同需求，以拉动消费。美聚宝APP
+
+                                出路4：回归社区或写字楼
+
+                                现在还有一部分这样的人群，不少妈妈们因为在家里照顾孩子，但又离不开家，可还想创业做点儿什么，他们会找一些商家来给她们免费配货，让她们在社区进行宣传销售。这样她们不仅不需要出高额的租金，又可以直接拿到应季的货品，仅仅做好销售就行了。类似的创意得到了众多小创业者的青睐，一个月就找到20多个合作者。与此同时，还有越来越多的创业者走进写字楼开店，以节约成本。
+
+                                可行性分析：日用品等短期快速消费品，尤其是生鲜产品，适宜于依托社区进行经营。
+
+                                注意事项：现在出台了很多新的政策，想利用“住改商”创业的人群，需要提供房屋产权证或房屋租赁证以及近邻的同意材料。美聚宝APP
+
+                                出路5：加入美聚宝移动互联网平台
+
+                                美聚宝(北京)网络科技有限公司致力于引领实体商业进入移动互联的销售和推广时代，是传统商业借助“美聚宝”平台实现自主线上、线下同步的销售和推广模式，同时降低传统商业的运营成本，“美聚宝”的开发是完全以消费者体验为中心，整合全行业商业资源，提供全方位便民生活的服务，使用户真正感受到便捷、高效的美聚宝服务，打造全国“美聚宝”移动互联服务第一平台。
+
+                                美聚宝APP，针对商业地方传媒需求开发的移动互联新媒体服务全行业实体商业借助美聚宝平台实现自主线上、线下相融合的销售和宣传模式，降低传统商业的运营成本。美聚宝是以消费者体验为开发依据，使用户方便获悉本地的购物信息和生活信息，感受到便捷、高效的美聚宝服务。
+                            </p>
+                        </div>
+
+                    </div>
+                   <!-- <div class="news-foot mjb-xs-hidden">
+                        <div class="news-key">
+                            文章关键词：<a href="#">美聚宝</a><a href="#">美聚宝服务站</a>
+                        </div>
+                        <div class="news-foot-link">
+                            <div class="fl">上一篇<a href="#">dsfsadfasdf</a></div>
+                            <div class="fr">下一篇<a href="#">asdfasdfsdfsd</a></div>
+                        </div>
+                    </div>-->
+                </div>
+              <!--  <div class="col-md-3 mjb-xs-hidden">
+
+                    <div class="row">
+                        <div class="mjb-news-title">相关新闻</div>
+                        <ul class="sub-item mt10 ml10">
+                            <li>
+                                <div class="fl mjb-news-box1 red-bg mr10">1</div>
+                                <a href="#" class="current">业界新闻</a></li>
+                            <li>
+                                <div class="fl mjb-news-box1 red-bg mr10">2</div>
+                                <a href="#" class="current">业界新闻</a></li>
+                            <li>
+                                <div class="fl mjb-news-box1 red-bg mr10">3</div>
+                                <a href="#" class="current">业界新闻</a></li>
+                            <li>
+                                <div class="fl mjb-news-box1 black-bg mr10">4</div>
+                                <a href="#" class="current">业界新闻</a></li>
+                            <li>
+                                <div class="fl mjb-news-box1 black-bg mr10">5</div>
+                                <a href="#" class="current">业界新闻</a></li>
+                            <li>
+                                <div class="fl mjb-news-box1 black-bg mr10">6</div>
+                                <a href="#" class="current">业界新闻</a></li>
+                            <li>
+                                <div class="fl mjb-news-box1 black-bg mr10">7</div>
+                                <a href="#" class="current">业界新闻</a></li>
+                            <li>
+                                <div class="fl mjb-news-box1 black-bg mr10">8</div>
+                                <a href="#" class="current">业界新闻</a></li>
+                        </ul>
+                    </div>
+                    <div class="row mjb-xs-hidden">
+                        <div class="mjb-news-title">相关新闻</div>
+                        <ul class="sub-item mt10 ml10">
+                            <li>
+                                <div class="fl mjb-news-box1 red-bg mr10">1</div>
+                                <a href="#" class="current">业界新闻</a></li>
+                            <li>
+                                <div class="fl mjb-news-box1 red-bg mr10">2</div>
+                                <a href="#" class="current">业界新闻</a></li>
+                            <li>
+                                <div class="fl mjb-news-box1 red-bg mr10">3</div>
+                                <a href="#" class="current">业界新闻</a></li>
+                            <li>
+                                <div class="fl mjb-news-box1 black-bg mr10">4</div>
+                                <a href="#" class="current">业界新闻</a></li>
+                            <li>
+                                <div class="fl mjb-news-box1 black-bg mr10">5</div>
+                                <a href="#" class="current">业界新闻</a></li>
+                            <li>
+                                <div class="fl mjb-news-box1 black-bg mr10">6</div>
+                                <a href="#" class="current">业界新闻</a></li>
+                            <li>
+                                <div class="fl mjb-news-box1 black-bg mr10">7</div>
+                                <a href="#" class="current">业界新闻</a></li>
+                            <li>
+                                <div class="fl mjb-news-box1 black-bg mr10">8</div>
+                                <a href="#" class="current">业界新闻</a></li>
+                        </ul>
+                    </div>
+                </div>-->
+            </div>
+
+        </div>
+
+        <div class="row mjb-xs-hidden" style="background: #f2f3f7;padding: 50px 0;">
+            <div class="container">
+                <div class="col-md-12">
+                    <div class="col-md-4 tl"><a href="mjb_join.html"><img src="img/jrwm.jpg" alt=""/></a></div>
+                    <div class="col-md-4 tl"><a href="mjb_league.html"><img src="img/spjm.jpg" alt=""/></a></div>
+                    <div class="col-md-4 tl"><a href="mjb_contact_us.html"><img src="img/lxwm.jpg" alt=""/></a></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- 底部布局-->
+    <div class="row mjb-bottom mjb-xs-hidden">
+
+        <div class="container">
+
+            <div class="col-md-8 col-xs-8">
+                <div class="fl">
+                    <ul class=" mjb-info mjb-link mjb-xs-hidden">
+                        <li><a href="#">公司介绍</a></li>
+                        <li><a href="#">法律声明</a></li>
+                        <li><a href="#">人才招聘</a></li>
+                    </ul>
+                    <ul class=" mjb-info">
+                        <li>公司地址：北京良乡财富广场0822室</li>
+                        <li>软著登字第0650314号</li>
+                    </ul>
+                    <ul class=" mjb-info">
+                        <li>工作时间：周一至周六（09:00-18:00）</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-xs-4">
+                <div class="fr">
+                    <table class="mjb-market">
+                        <tr>
+                            <td class="mjb-xs-hidden"><a href="#"><img src="img/404_35.png" alt="新浪官方微博"/></a></td>
+                            <td class="mjb-xs-hidden"><a href="#"><img src="img/qq_icon.png" alt="官方QQ"/></a></td>
+                            <td class="mjb-xs-hidden"><a href="#"><img src="img/404_39.png" alt="官方微信"/></a></td>
+                            <td>
+                                <a id="qrcode" href="#" class="ercode"></a>
+
+                                <p class="tc" style="margin-bottom: 0;">微信扫描请在浏览器中打开</p></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    <footer class="row mjb-footer mjb-xs-hidden clearfloat">
+        <div class="col-md-12">
+            <div class="copyright">
+                <div class="fl">
+                    <span>
+                        版权所有 2015-2016©<a href="#" target="_blank">美居宝(北京)网络科技有限公司</a>
+                    </span>
+                </div>
+                <div class="fr mjb-xs-hidden">
+                    <span>备案许可证号：京ICP备15047228号</span>
+                </div>
+
+
+            </div>
+        </div>
+    </footer>
+</div>
+<script type="text/javascript" src="js/lib/jquery.min.js"></script>
+<script type="text/javascript" src="js/lib/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/dropdownMenu.js"></script>
+<script type="text/javascript" src="js/lib/utf.js"></script>
+<script type="text/javascript" src="js/lib/jquery.qrcode.js"></script>
+<script type="text/javascript" src="js/qrcodeJump.js"></script>
+<script type="text/javascript" src="js/favorite.js"></script>
+<script type="text/javascript" src="js/followWebchat.js"></script>
+</body>
+</html>

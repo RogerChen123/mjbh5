@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <title>下载美聚宝App</title>
+</head>
+<script type="text/javascript" src="js/lib/jquery.min.js"></script>
+<script type="text/javascript">
+    $(function () {
+//判断是否是微信
+        function isWeiXin() {
+            var ua = window.navigator.userAgent.toLowerCase();
+            if (ua.match(/MicroMessenger/i) == 'micromessenger') {
+                return true;
+            } else {
+                return false;
+            }
+        }
+        // 获取终端的相关信息
+        var Terminal = {
+            // 辨别移动终端类型
+            platform: function () {
+                var u = navigator.userAgent, app = navigator.appVersion;
+                return {
+                    // android终端或者uc浏览器
+                    android: u.indexOf('Android') > -1 || u.indexOf('Linux') > -1,
+                    // 是否为iPhone或者QQHD浏览器
+                    iPhone: u.indexOf('iPhone') > -1,
+                    // 是否iPad
+                    iPad: u.indexOf('iPad') > -1,
+
+                };
+            }(),
+            // 辨别移动终端的语言：zh-cn、en-us、ko-kr、ja-jp...
+            language: (navigator.browserLanguage || navigator.language).toLowerCase()
+        };
+
+
+        // 如果要分渠道，也是可以的，渠道区分：?from=xx
+        var From = (function () {
+            var searchInfo = location.search.substr(1).split('&'), item, from;
+            for (var i = 0, len = searchInfo.length; len > 1 && i < len; i++) {
+                item = searchInfo[i].split('=');
+                if (item[0] == 'from') {
+                    from = item[1];
+                    break;
+                }
+            }
+            return from;
+        })();
+
+        // 根据不同的终端，跳转到不同的地址
+        var theUrl;
+
+        if (isWeiXin()) {
+            if (Terminal.platform.iPhone) {
+                theUrl = "http://mp.weixin.qq.com/mp/redirect?url=https%3A%2F%2Fitunes.apple.com%2Fcn%2Fapp%2Fmei-ju-bao%2Fid1076914538?mt=8";
+
+            }
+        }else{
+
+            // android系统APP
+            if (Terminal.platform.android) {
+                theUrl = "http://182.92.64.235/mjbweb/down/mjb.apk";
+            } else if (Terminal.platform.iPhone) {
+                theUrl = "https://itunes.apple.com/cn/app/mei-ju-bao/id1076914538?mt=8";
+
+            }
+
+
+        }
+
+        location.href = theUrl;
+
+
+    });
+
+</script>
+<body>
+正在跳转....
+</body>
+</html>
